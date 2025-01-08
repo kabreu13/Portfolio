@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="One-page resume and portfolio of Kyle Abreu, a computer science graduate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styleSheet.css">
+
+        <title>Kyle Abreu | Resume & Portfolio</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+        <link rel="manifest" href="Images/site.webmanifest">
+        <link rel="mask-icon" href="Images/safari-pinned-tab.svg" color="#000000">
+
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <!-- Dark/Light Mode Toggle -->
+        <button id="theme-toggle">Toggle Theme</button>
+
+        <!-- Particle.js Background -->
+        <div id="particles-js"></div>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Intro Section -->
+            <section class="Intro">
+                <div class="profile-pic">
+                    <img src="Images/profilePic.jpg" alt="Kyle Abreu" />
+                </div>
+                <div class="intro-text">
+                    <h1>Kyle Abreu</h1>
+                    <h2 id="typewriter"></h2>
+                    <p>"Think bigger than your dreams."</p>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="About" id="about">
+                <h2>About Me</h2>
+                <p>
+                    Enthusiastic computer science graduate with a well-defined leadership background seeking a jump-start to my tech career. My top strengths are my work ethic and my ability to communicate the needs of a business. I am seeking opportunities to leverage my technical knowledge and leadership skills for innovative problem-solving and impactful contributions to a team of like-minded individuals.
+                </p>
+            </section>
+
+            <!-- Education Section -->
+            <section class="Education" id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p><strong>Framingham State University</strong> | magna cum laude</p>
+                </div>
+                <div class="education-item">
+                    <h3>Associate of Science in Cyber Security</h3>
+                    <p><strong>Quincy College</strong> | cum laude</p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="Experience" id="experience">
+                <h2>Professional Experience</h2>
+                <div class="experience-item">
+                    <h3>Web Developer</h3>
+                    <p><strong>DESCO</strong> | Canton, MA | May 2023 – Present</p>
+                    <ul>
+                        <li>Designed, programmed, and maintained code for 20+ company-owned ecommerce websites.</li>
+                        <li>Implemented new home page features, sub-features, web-based forms, and special promotions, totaling 100+ changes.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Asset Protection and Safety Manager</h3>
+                    <p><strong>Lowe’s</strong> | Woburn/Worcester, MA | May 2023 – Present</p>
+                    <ul>
+                        <li>Recovered $1,000,000+ of inventory through operational analysis, theft mitigation, and coaching/training.</li>
+                        <li>Surpassed store inventory shrink plan by 85 basis points, resulting in $300,000+ in shrink reduction.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Merchandising Service Manager</h3>
+                    <p><strong>Lowe’s</strong> | Dedham/Framingham, MA | Feb 2020 – May 2023</p>
+                    <ul>
+                        <li>Supported 16 Merchandising Service Associates (MSAs) on high-priority projects and maintenance of 1900+ retail spaces.</li>
+                        <li>Planned, led, and executed 3000+ corporate, vendor, and store projects.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="Skills" id="skills">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Java <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div></li>
+                            <li>C++ <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></li>
+                            <li>C# <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div></li>
+                            <li>C <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div></li>
+                            <li>Python <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div></li>
+                            <li>Linux <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div></li>
+                            <li>SQL <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>Angular</li>
+                            <li>GitHub</li>
+                            <li>Android Studio</li>
+                            <li>Google Cloud Services</li>
+                            <li>Amazon S3</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>IDEs</h3>
+                        <ul>
+                            <li>Eclipse</li>
+                            <li>Sublime</li>
+                            <li>IntelliJ</li>
+                            <li>Visual Studio</li>
+                            <li>Spyder</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="Projects" id="projects">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Undergraduate Capstone</h3>
+                        <p>Exploring Operating Systems Concepts through Project-Based Learning: A Comprehensive Overview.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Simple Calculator</h3>
+                        <p>A basic calculator application built with HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Analog Clock</h3>
+                        <p>A real-time analog clock created using JavaScript and CSS animations.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Extracurriculars Section -->
+            <section class="Extracurriculars">
+                <h2>Extracurriculars</h2>
+                <ul>
+                    <li>Mass Cyber Center: Paired with a cyber security professional to collaborate on a security awareness project.</li>
+                    <li>CCSC Eastern 2022: Represented FSU in a hackathon amongst 31 teams.</li>
+                    <li>Lowe’s Asset Protection High Potential Class: Completed a 12-month leadership accelerant program.</li>
+                </ul>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="Contact" id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Smooth Scrolling Script -->
+        <script>
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+
+        <!-- Typewriter Effect Script -->
+        <script>
+            const typewriterText = "Computer Science Graduate | Software Enthusiast";
+            const typewriterElement = document.getElementById('typewriter');
+            let i = 0;
+
+            function typeWriter() {
+                if (i < typewriterText.length) {
+                    typewriterElement.innerHTML += typewriterText.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 100); // Adjust speed here
+                }
+            }
+
+            typeWriter();
+        </script>
+
+        <!-- Scroll Animations Script -->
+        <script>
+            const sections = document.querySelectorAll('section');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        </script>
+
+        <!-- Dark/Light Mode Toggle Script -->
+        <script>
+            const themeToggle = document.getElementById('theme-toggle');
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('light-mode');
+            });
+        </script>
+
+        <!-- Particle.js Script -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function () {
+                console.log('Particles.js loaded!');
+            });
+        </script>
+    </body>
+</html>

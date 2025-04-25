@@ -7,8 +7,8 @@
         <meta name="description" content="One-page resume and portfolio of Kyle Abreu.">
         <meta name="author" content="Kyle Abreu">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#4CAF50">
-        <meta name="msapplication-TileColor" content="#4CAF50">
+        <meta name="theme-color" content="#14486C">
+        <meta name="msapplication-TileColor" content="#14486C">
         <meta name="msapplication-TileImage" content="./Images/mstile-150x150.png">
 
         <link rel="stylesheet" href="styleSheet.css">
@@ -42,7 +42,6 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li id="theme-toggle">🌙</li>
                 </ul>
             </nav>
         </header>
@@ -50,11 +49,11 @@
             <!-- Intro Section -->
             <section class="Intro">
                 <div class="profile-pic">
-                    <img src="Images/profilePic.jpg" alt="Kyle Abreu" />
+                    <img src="Images/ai-profile-pic.png" alt="Kyle Abreu" />
                 </div>
                 <div class="intro-text">
                     <h1>Kyle Abreu</h1>
-                    <h2 id="typewriter"></h2>
+                    <h2>Computer Science Graduate | Software Enthusiast</h2>
                     <p>"Think bigger than your dreams."</p>
                 </div>
             </section>
@@ -228,23 +227,6 @@
             });
         </script>
 
-        <!-- Typewriter Effect Script -->
-        <script>
-            const typewriterText = "Computer Science Graduate | Software Enthusiast";
-            const typewriterElement = document.getElementById('typewriter');
-            let i = 0;
-
-            function typeWriter() {
-                if (i < typewriterText.length) {
-                    typewriterElement.innerHTML += typewriterText.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100); // Adjust speed here
-                }
-            }
-
-            typeWriter();
-        </script>
-
         <!-- Scroll Animations Script -->
         <script>
             const sections = document.querySelectorAll('section');
@@ -255,18 +237,10 @@
                         entry.target.classList.add('visible');
                     }
                 });
-            }, { threshold: 0.1 });
+            }, { threshold: 0.25 });
 
             sections.forEach(section => {
                 observer.observe(section);
-            });
-        </script>
-
-        <!-- Dark/Light Mode Toggle Script -->
-        <script>
-            const themeToggle = document.getElementById('theme-toggle');
-            themeToggle.addEventListener('click', () => {
-                document.body.classList.toggle('light-mode');
             });
         </script>
 

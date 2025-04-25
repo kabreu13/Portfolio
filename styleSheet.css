@@ -3,34 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* outline: 1px solid red; */
 }
 
 /* Body Styling */
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #001F3D;
+    color: #B89E61;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
-
-/* Dark/Light Mode Toggle Button */
-#theme-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-    #theme-toggle:hover {
-        background-color: #45a049;
-    }
 
 /* Particles */
 #particles-js {
@@ -42,38 +26,9 @@ body {
     z-index: -1;
 }
 
-/* Light Theme */
-body.light-mode {
-    background-color: #ffffff;
-    color: #333;
-}
-
-    body.light-mode nav a{
-        color: #333;
-    }
-
-    body.light-mode nav,
-    body.light-mode .education-item,
-    body.light-mode .experience-item,
-    body.light-mode .skill-category,
-    body.light-mode .project-card {
-        background-color: #f4f4f4;
-        color: #333;
-    }
-
-    body.light-mode h2 {
-        color: #4CAF50;
-    }
-
-    body.light-mode .Intro .intro-text h1,
-    body.light-mode .Intro .intro-text h2,
-    body.light-mode .Intro .intro-text p {
-        color: #333;
-    }
-
 /* Navigation Bar */
 nav {
-    background-color: #333;
+    background-color: #565756;
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -95,7 +50,7 @@ nav {
         }
 
             nav ul li a:hover {
-                color: #4CAF50;
+                color: #14486C;
             }
 
 /* Sections */
@@ -117,7 +72,7 @@ h2 {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
-    color: #4CAF50;
+    color: #14486C;
 }
 
 /* Intro Section */
@@ -131,7 +86,7 @@ h2 {
 
     .Intro .profile-pic img {
         width: 300px;
-        border: 3px solid #4CAF50;
+        border: 3px solid #14486C;
         margin-right: 40px;
     }
 
@@ -143,12 +98,12 @@ h2 {
     .Intro .intro-text h2 {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #ffffff;
+        color: #B89E61;
     }
 
     .Intro .intro-text p {
         font-size: 18px;
-        color: #7f7f7f;
+        color: #919191;
     }
 
 /* About Section */
@@ -161,7 +116,7 @@ h2 {
 
 /* Education Section */
 .Education .education-item {
-    background-color: #333;
+    background-color: #565756;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -170,17 +125,17 @@ h2 {
     .Education .education-item h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #4CAF50;
+        color: #14486C;
     }
 
     .Education .education-item p {
         font-size: 18px;
-        color: #7f7f7f;
+        color: #919191;
     }
 
 /* Experience Section */
 .Experience .experience-item {
-    background-color: #333;
+    background-color: #565756;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -189,13 +144,13 @@ h2 {
     .Experience .experience-item h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #4CAF50;
+        color: #14486C;
     }
 
     .Experience .experience-item p {
         font-size: 18px;
         margin-bottom: 10px;
-        color: #7f7f7f;
+        color: #919191;
     }
 
     .Experience .experience-item ul {
@@ -217,7 +172,7 @@ h2 {
 }
 
 .Skills .skill-category {
-    background-color: #333;
+    background-color: #565756;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -226,7 +181,7 @@ h2 {
     .Skills .skill-category h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #4CAF50;
+        color: #14486C;
     }
 
     .Skills .skill-category ul {
@@ -250,7 +205,7 @@ h2 {
 
 .progress {
     height: 100%;
-    background-color: #4CAF50;
+    background-color: #14486C;
     border-radius: 5px;
     animation: fillProgress 2s ease-in-out forwards;
 }
@@ -274,7 +229,7 @@ h2 {
 }
 
 .Projects .project-card {
-    background-color: #333;
+    background-color: #565756;
     padding: 20px;
     border-radius: 10px;
     position: relative;
@@ -290,12 +245,12 @@ h2 {
     .Projects .project-card h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #4CAF50;
+        color: #14486C;
     }
 
     .Projects .project-card p {
         font-size: 16px;
-        color: #7f7f7f;
+        color: #919191;
     }
 
     .Projects .project-card .project-link {
@@ -305,7 +260,7 @@ h2 {
         overflow: hidden;
         left: 0;
         text-align: center;
-        background-color: #4CAF50;
+        background-color: #14486C;
         color: white;
         padding: 10px;
         text-decoration: none;
@@ -319,7 +274,7 @@ h2 {
         overflow: hidden;
         right: 0;
         text-align: center;
-        background-color: #4CAF50;
+        background-color: #14486C;
         color: white;
         padding: 10px;
         text-decoration: none;
@@ -336,7 +291,7 @@ h2 {
 
     .Projects .project-card .project-link a:visited,
     .Projects .project-card .document-link a:visited {
-        background-color: #4CAF50;
+        background-color: #14486C;
         color: white;
         font-size: 16px;
     }
@@ -364,16 +319,16 @@ h2 {
 .Contact input, .Contact textarea {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #4CAF50;
+    border: 1px solid #14486C;
     border-radius: 5px;
-    background-color: #333;
-    color: #4CAF50;
+    background-color: #565756;
+    color: #14486C;
 }
 
 .Contact button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background-color: #14486C;
     color: white;
     border: none;
     border-radius: 5px;
@@ -382,7 +337,7 @@ h2 {
 }
 
 .Contact button:hover {
-    background-color: #45a049;
+    background-color: #B89E61;
 }
 
 /*Form Status Message*/
@@ -394,7 +349,7 @@ h2 {
 }
 
 #form-status.success {
-    background-color: #4CAF50;
+    background-color: #14486C;
     color: white;
 }
 

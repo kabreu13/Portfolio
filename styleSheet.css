@@ -256,23 +256,9 @@ h2 {
     .Projects .project-card .project-link {
         position: absolute;
         bottom: -75px;
-        width: 50%;
+        width: 100%;
         overflow: hidden;
         left: 0;
-        text-align: center;
-        background-color: #14486C;
-        color: white;
-        padding: 10px;
-        text-decoration: none;
-        transition: bottom 0.3s ease-in-out;
-    }
-
-    .Projects .project-card .document-link {
-        position: absolute;
-        bottom: -75px;
-        width: 50%;
-        overflow: hidden;
-        right: 0;
         text-align: center;
         background-color: #14486C;
         color: white;
@@ -285,22 +271,36 @@ h2 {
         bottom: 0;
     }
 
-    .Projects .project-card:hover .document-link {
-        bottom: 0;
+    .Projects .project-card:hover .project-link a {
+        text-decoration: none;
     }
 
-    .Projects .project-card .project-link a:visited,
-    .Projects .project-card .document-link a:visited {
-        background-color: #14486C;
+    .Projects .project-card .project-link a:visited {
         color: white;
-        font-size: 16px;
     }
 
-    .Projects .project-card .project-link a:hover,
-    .Projects .project-card .document-link a:hover {
-        translate: 10px;
-        font-size: 16px;
-        color: white;
+    .Projects .project-card .project-link a:hover {
+        color: #B89E61;
+    }
+
+/* Extracurriculars Section */
+.Extracurriculars .extracurricular-item {
+    background-color: #565756;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+    .Extracurriculars .extracurricular-item h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #14486C;
+    }
+
+    .Extracurriculars .extracurricular-item p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #919191;
     }
 
 /* Contact Section */
